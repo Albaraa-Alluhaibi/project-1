@@ -23,13 +23,18 @@ In the producer-consumer problem, there are two types of threads: producers and 
 To compile the producer and consumer programs, use the following commands:
 
 
+
 -Make consumer
 
 cmpiles consumer by using : g++ "./cpp/consumer.cpp" -pthread -lrt -o ./output/consumer
 
+
+
 -Make producer
 
 compile producer by using : g++ "./cpp/producer.cpp" -pthread -lrt -o ./output/producer
+
+
 
 Then to show output bu using this command: ./output/producer shmfile & ./output/consumer shmfile
  
