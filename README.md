@@ -25,12 +25,12 @@ To compile the producer and consumer programs, use the following commands:
 
 -Make consumer
 
-cmpiles consumer
+cmpiles consumer by using : g++ "./cpp/consumer.cpp" -pthread -lrt -o ./output/consumer
 
 -Make producer
 
-compile producer 
+compile producer by using : g++ "./cpp/producer.cpp" -pthread -lrt -o ./output/producer
 
-make output
+Then to show output bu using this command: ./output/producer shmfile & ./output/consumer shmfile
  
-this will show the code and output it in the terminal  
+this will output the result in the terminal  
