@@ -1,3 +1,7 @@
+//Albaraa Alluhaibi
+//04/05/2024
+//buffer.hpp
+
 #ifndef BUFFER_HPP
 #define  BUFFER_HPP
     #include <stdlib.h>
